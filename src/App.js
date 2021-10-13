@@ -6,7 +6,7 @@ import ListadoNoticias from './components/ListadoNoticias';
 function App() {
 
   //definir la categoria y noticias
-  const [ categoria, guardarCategoria ] = useState('');
+  const [ categoria, guardarCategoria ] = useState('general');
 
   //state para guardar las noticias de las consulta a la api
   const [noticias, guardarNoticias] = useState([]);
